@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import "all.min.css";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+
+}
+
+
+
+
+.back-image .row{
+    position: relative;
+    overflow: hidden;
+}
+
+.back-image .container-fluid{
+    position: relative;
+}
+
+
+
+.back-image h1{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    left: 30%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*style for who we are section*/
+
+.who-we-are{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.who-we-are .col-md-6:nth-of-type(1){
+    padding: 40px 20px;
+}
+
+.who-we-are .col-md-6:nth-of-type(1) span hr{
+    width: 60px;
+    color: #e23e00;
+    height: 5px;
+}
+.who-we-are .col-md-6:nth-of-type(1) h3{
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #1f4f87;
+}
+
+.who-we-are .col-md-6:nth-of-type(1) p{
+    font-size: 15px;
+    color: #a3a39c;
+}
+
+
+/*style for what we are*/
+
+.what-we-do-2{
+    padding-top: 90px;
+    background-color: #f7f8f8;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.what-we-do-2 .background-image{
+    padding: 0px 0px 120px 0px ;
+    background-image:url("../img/what we do.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+
+
+
+
+.what-we-do-2 span{
+    position: absolute;
+    top: 21%;
+    left: 46%;
+    transform: translate(20%,-80%);
+}
+
+.what-we-do-2 span hr{
+    width: 60px;
+    background-color: #e23e00;
+    height: 5px;
+}
+
+.what-we-do-2 h1{
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+
+
+
+.what-we-do-2 .row .col-md-4 .card{
+    position: relative;
+}
+
+.what-we-do-2 .row .col-md-4:nth-of-type(1) h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 22px;
+    color: white;
+}
+
+.what-we-do-2 .row .col-md-4:nth-of-type(2) h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 22px;
+    color: white;
+}
+
+
+.what-we-do-2 .row .col-md-4:nth-of-type(3) h1 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 22px;
+    color: white;
+}
+.what-we-do-2 .row .col-md-4 .fa-long-arrow-alt-right{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 22px;
+    color: white;
+}
+
+.what-we-do-2 .row .col-md-4:nth-of-type(2) .fa-long-arrow-alt-right{
+    left: 45%;
+}
+.what-we-do-2 .row .col-md-4:nth-of-type(3) .fa-long-arrow-alt-right{
+    left: 45%;
+}
+
+
+/*style for our attorneys*/
+
+
+.Our-attorneys{
+    padding: 80px 0px 100px 0px;
+    background-image: url("../img/header-image-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.Our-attorneys .col-md-4 {
+    padding-top: 169px;
+    flex: 0 0 auto;
+
+}
+
+
+.Our-attorneys span  hr{
+    width: 60px;
+    color: #e23e00;
+    height: 5px;
+}
+
+.Our-attorneys .col-md-4 h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: #FFFFFF;
+
+}
+.Our-attorneys .col-md-4 p{
+    color: white;
+}
+
+.Our-attorneys .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    margin-bottom: 10px;
+
+}
+
+.Our-attorneys .row .col-md-6 {
+    flex: 0 0 auto;
+    width: 37%;
+}
+
+/*style for our language section*/
+
+.language{
+    padding: 80px 0px 80px 0px;
+}
+
+.language h1{
+    color: #5a5c95;
+}
+
+
+.language .row .col-md-12{
+    text-align: center;
+}
+
+.language span hr{
+    width: 60px;
+    color: #e23e00;
+    height: 5px;
+}
+
+.language span{
+    position: absolute;
+    top: 19%;
+    left: 46%;
+    transform: translate(10%,-100%);
+}
+
+
+
+.language .row:nth-of-type(2){
+    padding: 40px;
+}
+.language .row:nth-of-type(2) h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #5a5c95;
+}
+
+.language .row:nth-of-type(2) p{
+    font-size: 14px;
+    color: #7b7979;
+}
+.language .row:nth-of-type(2) a{
+    text-decoration: none;
+    color: #f2622c;
+    font-weight: 500;
+}
+
+/*style for contact section*/
+
+.contact{
+    padding: 80px 0px 80px 0px;
+    background-color: #28377e;
+}
+
+.contact h1{
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+
+.contact .row .col-md-12{
+    text-align: center;
+}
+
+.contact span hr{
+    width: 60px;
+    color: #e23e00;
+    height: 5px;
+}
+
+.contact span{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    transform: translate(10%,-100%);
+}
+
+input{
+    width: 300px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #a7a7a7;
+    border-bottom: 1px solid;
+    margin-bottom: 17px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.btn{
+    padding: 0px 36px;
+    border: none;
+    color: white;
+    background-color: #f2622c;
+    border-radius: 0px;
+}
+
+
+
+/*feature image */
+
+.feature-image-3 .row .card {
+    position: relative;
+    border-style: none;
+}
+.card {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none!important;
+    border-radius: .25rem;
+}
+
+.feature-image-3 .row .col-md-4:nth-of-type(1) h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 22px;
+    color: white;
+}
+
+.feature-image-3 .row .col-md-4:nth-of-type(2) h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 22px;
+    color: white;
+}
+
+
+.feature-image-3 .row .col-md-4:nth-of-type(3) h1 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 22px;
+    color: white;
+}
+.feature-image-3 .row .col-md-4 .fa-long-arrow-alt-right{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 22px;
+    color: white;
+}
+
+.feature-image-3 .row .col-md-4:nth-of-type(2) .fa-long-arrow-alt-right{
+    left: 45%;
+}
+.feature-image-3 .row .col-md-4:nth-of-type(3) .fa-long-arrow-alt-right{
+    left: 45%;
+}
